@@ -1,0 +1,111 @@
+{"@odata.context":"https://mysloan.mit.edu/_odata/$metadata#STS.vw_E90DepartmentStaff",
+    "value":[
+    {"Row":1,"NameLast":"Chaney","NameFirst":"Ann","Campus_PhoneNumber":"(617) 253-3607","MITEmail":"achaney@mit.edu","Campus_Formatted":"EE20-436C\n\n","Department":"Executive Education"}
+    ,{"Row":2,"NameLast":"Capodilupo","NameFirst":"David","Campus_PhoneNumber":"(617) 715-4192","MITEmail":"dcap@mit.edu","Campus_Formatted":"E70-676L\n\n","Department":"Global Programs"}
+    ,{"Row":3,"NameLast":"Hirst","NameFirst":"Peter","Campus_PhoneNumber":"(617) 253-1936","MITEmail":"hirst@mit.edu","Campus_Formatted":"E90-9100\n\n","Department":"Executive Education"}
+    ,{"Row":4,"NameLast":"Ramos","NameFirst":"Jinette","Campus_PhoneNumber":"(617) 253-1464","MITEmail":"jinette@mit.edu","Campus_Formatted":"EE20-609\n\n","Department":"Sloan Management Review"}
+    ,{"Row":5,"NameLast":"French","NameFirst":"JoAnna","Campus_PhoneNumber":null,"MITEmail":"jmfrench@mit.edu","Campus_Formatted":"EE20-650\n\n","Department":"Office of Communications"}
+    ,{"Row":6,"NameLast":"Beauregard","NameFirst":"Joseph","Campus_PhoneNumber":"(617) 253-0998","MITEmail":"joebeau@mit.edu","Campus_Formatted":"EE20-451\n\n","Department":"Finance"}
+    ,{"Row":7,"NameLast":"Gallagher","NameFirst":"Deborah","Campus_PhoneNumber":"(617) 253-3967","MITEmail":"debg@mit.edu","Campus_Formatted":"E90-9200\n\n","Department":"Sloan Management Review"}
+    ,{"Row":8,"NameLast":"Bergemann","NameFirst":"Eric","Campus_PhoneNumber":"(617) 253-4329","MITEmail":"ebergemann@mit.edu","Campus_Formatted":"EE20-415\n\n","Department":"Executive Education"}
+    ,{"Row":9,"NameLast":"Bankson","NameFirst":"Amy","Campus_PhoneNumber":"(617) 452-2089","MITEmail":"amy_mac@mit.edu","Campus_Formatted":"EE20-646D\n\n","Department":"Office of Communications"}
+    ,{"Row":10,"NameLast":"Favreau-McKinley","NameFirst":"Patricia","Campus_PhoneNumber":"(617) 253-3492","MITEmail":"pfavreau@mit.edu","Campus_Formatted":"EE20-668\n\n","Department":"Office of Communications"}
+    ,{"Row":11,"NameLast":"Abbott","NameFirst":"Diane","Campus_PhoneNumber":"(617) 324-8391","MITEmail":"dabbott@mit.edu","Campus_Formatted":"EE20-430D\n\n","Department":"Executive Education"}
+    ,{"Row":12,"NameLast":"Gardner","NameFirst":"Janice","Campus_PhoneNumber":"(617) 452-2362","MITEmail":"jgardner@mit.edu","Campus_Formatted":"EE20-436F\n\n","Department":"Executive Education"}
+    ,{"Row":13,"NameLast":"LeBlanc","NameFirst":"Ann","Campus_PhoneNumber":"(617) 258-7515","MITEmail":"aleblanc@mit.edu","Campus_Formatted":"EE20-445\n\n","Department":"Finance"}
+    ,{"Row":14,"NameLast":"Lui","NameFirst":"Lucy","Campus_PhoneNumber":"(617) 253-5291","MITEmail":"llui@mit.edu","Campus_Formatted":"EE20-455\n\n","Department":"Human Resources"}
+    ,{"Row":15,"NameLast":"Brown","NameFirst":"Sean","Campus_PhoneNumber":"(617) 253-7251","MITEmail":"smbrown@mit.edu","Campus_Formatted":"E90-9200\n\n","Department":"Sloan Management Review"}
+    ,{"Row":16,"NameLast":"Chin","NameFirst":"Eleanor","Campus_PhoneNumber":"(617) 253-9791","MITEmail":"echin@mit.edu","Campus_Formatted":"E70-676P\n\n","Department":"Global Programs"}
+    ,{"Row":17,"NameLast":"Anderson","NameFirst":"Catherine","Campus_PhoneNumber":"(617) 253-0401","MITEmail":"kateanderson@mit.edu","Campus_Formatted":"EE20-437\n\n","Department":"Executive Education"}
+    ,{"Row":18,"NameLast":"Denning","NameFirst":"Paul","Campus_PhoneNumber":"(617) 253-0576","MITEmail":"denning@mit.edu","Campus_Formatted":"EE20-666\n\n","Department":"Office of Communications"}
+    ,{"Row":19,"NameLast":"Miskinis","NameFirst":"Julie","Campus_PhoneNumber":"(617) 324-0432","MITEmail":"jmiskinis@MIT.EDU","Campus_Formatted":"EE20-404\n\n","Department":"Executive Education"}
+    ,{"Row":20,"NameLast":"Gately","NameFirst":"Cyndi","Campus_PhoneNumber":"(617) 253-0389","MITEmail":"cyndic@mit.edu","Campus_Formatted":"EE20-433\n\n","Department":"Executive Education"}
+    ,{"Row":21,"NameLast":"Holland","NameFirst":"Robert","Campus_PhoneNumber":"(617) 253-3959","MITEmail":"rwhjr@mit.edu","Campus_Formatted":"E90-9200\n\n","Department":"Sloan Management Review"}
+    ,{"Row":22,"NameLast":"Ziukaite-Hansen","NameFirst":"Laura","Campus_PhoneNumber":"(617) 852-2848","MITEmail":"laurazh@mit.edu","Campus_Formatted":"EE20-411\n\n","Department":"Executive Education"}
+    ,{"Row":23,"NameLast":"Church","NameFirst":"Zachary","Campus_PhoneNumber":"(617) 324-0804","MITEmail":"zchurch@mit.edu","Campus_Formatted":"EE20-646C\n\n","Department":"Office of Communications"}
+    ,{"Row":24,"NameLast":"Amoroso","NameFirst":"Gene","Campus_PhoneNumber":"(617) 253-2263","MITEmail":"genea@mit.edu","Campus_Formatted":"EE20-636B\n\n","Department":"Office of Communications"}
+    ,{"Row":25,"NameLast":"Patil","NameFirst":"Deepashree","Campus_PhoneNumber":null,"MITEmail":"dspatil@mit.edu","Campus_Formatted":null,"Department":"Office of Communications"}
+    ,{"Row":26,"NameLast":"Barrette","NameFirst":"Michael","Campus_PhoneNumber":"(617) 258-5661","MITEmail":"barrette@mit.edu","Campus_Formatted":"EE20-602\n\n","Department":"Sloan Management Review"}
+    ,{"Row":27,"NameLast":"Egan","NameFirst":"Benjamin","Campus_PhoneNumber":"(617) 324-3976","MITEmail":"bennegan@mit.edu","Campus_Formatted":"EE20-447\n\n","Department":"Finance"}
+    ,{"Row":28,"NameLast":"Kiron","NameFirst":"David","Campus_PhoneNumber":"(617) 253-8071","MITEmail":"dkiron@mit.edu","Campus_Formatted":"EE20-604\n\n","Department":"Sloan Management Review"}
+    ,{"Row":29,"NameLast":"Irwin","NameFirst":"Kenneth","Campus_PhoneNumber":"(617) 258-9537","MITEmail":"kirwin76@mit.edu","Campus_Formatted":"EE20-432A\n\n","Department":"Executive Education"}
+    ,{"Row":30,"NameLast":"Hutton","NameFirst":"Rachel","Campus_PhoneNumber":"(617) 258-9642","MITEmail":"ceara@mit.edu","Campus_Formatted":"EE20-435\n\n","Department":"Executive Education"}
+    ,{"Row":31,"NameLast":"Chiodini","NameFirst":"Sandonei","Campus_PhoneNumber":"(617) 253-7168","MITEmail":"chiodini@mit.edu","Campus_Formatted":"E70-676H\n\n","Department":"Global Programs"}
+    ,{"Row":32,"NameLast":"Regan","NameFirst":"Margaret","Campus_PhoneNumber":"(617) 715-4604","MITEmail":"maregan@mit.edu","Campus_Formatted":"EE20-421\n\n","Department":"Executive Education"}
+    ,{"Row":33,"NameLast":"Gonzalez","NameFirst":"Christine","Campus_PhoneNumber":"(617) 253-7345","MITEmail":"cgonzalez@mit.edu","Campus_Formatted":"EE20-436A\n\n","Department":"Executive Education"}
+    ,{"Row":34,"NameLast":"Burgos","NameFirst":"Jennifer","Campus_PhoneNumber":"(617) 324-2434","MITEmail":"jgrady@mit.edu","Campus_Formatted":"EE20-642A\n\n","Department":"Office of Communications"}
+    ,{"Row":35,"NameLast":"Horwitz","NameFirst":"Karen","Campus_PhoneNumber":"(617) 324-7634","MITEmail":"khorwitz@mit.edu ","Campus_Formatted":"E90-9242\n\n","Department":"Office of Communications"}
+    ,{"Row":36,"NameLast":"Maxwell","NameFirst":"Ann Marie","Campus_PhoneNumber":"(617) 324-4427","MITEmail":"AMAXWELL@MIT.EDU","Campus_Formatted":"EE20-425\n\n","Department":"Executive Education"}
+    ,{"Row":37,"NameLast":"Davagian","NameFirst":"Amy","Campus_PhoneNumber":"(617) 324-4802","MITEmail":"amydava@mit.edu","Campus_Formatted":"E90\n\n","Department":"Executive Education"}
+    ,{"Row":38,"NameLast":"Kolterman","NameFirst":"John","Campus_PhoneNumber":null,"MITEmail":"jkolt@mit.edu","Campus_Formatted":"EE20-406\n77 Massachusetts Ave\nCambridge, MA 02139\nUnited States of America","Department":"Executive Education"}
+    ,{"Row":39,"NameLast":"Fieldman","NameFirst":"Lindsey","Campus_PhoneNumber":"(617) 715-4851","MITEmail":"fieldman@mit.edu","Campus_Formatted":"E90-9TH FLOOR\n\n","Department":"Office of Communications"}
+    ,{"Row":40,"NameLast":"DuLong","NameFirst":"Veronica","Campus_PhoneNumber":"(617) 258-6186","MITEmail":"dulong@mit.edu","Campus_Formatted":"EE20-442A\n\n","Department":"Finance"}
+    ,{"Row":41,"NameLast":"Grady","NameFirst":"Kirsten","Campus_PhoneNumber":null,"MITEmail":"kgrady@mit.edu","Campus_Formatted":"EE20-642-D\n\n","Department":"Office of Communications"}
+    ,{"Row":42,"NameLast":"Zecca","NameFirst":"Kristin","Campus_PhoneNumber":"(617) 324-2285","MITEmail":"kzecca@mit.edu","Campus_Formatted":"EE20-413\n\n","Department":"Executive Education"}
+    ,{"Row":43,"NameLast":"Williams","NameFirst":"Kathleen","Campus_PhoneNumber":"(617) 324-7222","MITEmail":"kosull@mit.edu","Campus_Formatted":"EE20-649\n\n","Department":"Office of Communications"}
+    ,{"Row":44,"NameLast":"Callaghan","NameFirst":"Stefanie","Campus_PhoneNumber":null,"MITEmail":"SCALLAGH@MIT.EDU","Campus_Formatted":"EE20-643\n\n","Department":"Office of Communications"}
+    ,{"Row":45,"NameLast":"Ruiz De Panfilis","NameFirst":"Irene","Campus_PhoneNumber":"(617) 324-4897","MITEmail":"irener@mit.edu","Campus_Formatted":"EE20-636C\n\n","Department":"Office of Communications"}
+    ,{"Row":46,"NameLast":"Dietel","NameFirst":"Robert","Campus_PhoneNumber":null,"MITEmail":"RDIETEL@MIT.EDU","Campus_Formatted":"EE20-409\n\n","Department":"Executive Education"}
+    ,{"Row":47,"NameLast":"Lai","NameFirst":"Mei","Campus_PhoneNumber":"(617) 452-3400","MITEmail":"MHLAI@MIT.EDU","Campus_Formatted":"E70-676X\n\n","Department":"Global Programs"}
+    ,{"Row":48,"NameLast":"Finney","NameFirst":"Heather","Campus_PhoneNumber":"(617) 715-2635","MITEmail":"HFINNEY@MIT.EDU","Campus_Formatted":"EE20-449\n\n","Department":"Finance"}
+    ,{"Row":49,"NameLast":"Louis","NameFirst":"Karinthia","Campus_PhoneNumber":null,"MITEmail":"KLOUIS@MIT.EDU","Campus_Formatted":"EE20-432C\n\n","Department":"Executive Education"}
+    ,{"Row":50,"NameLast":"DiMambro","NameFirst":"Isabella","Campus_PhoneNumber":"(617) 253-6520","MITEmail":"dimambro@mit.edu","Campus_Formatted":"EE20-4TH FL\n\n","Department":"Executive Education"}
+    ,{"Row":51,"NameLast":"Richelson","NameFirst":"Marki","Campus_PhoneNumber":"(617) 324-1590","MITEmail":"mrich@mit.edu","Campus_Formatted":"EE20-436C\n\n","Department":"Executive Education"}
+    ,{"Row":52,"NameLast":"Posner","NameFirst":"Bruce","Campus_PhoneNumber":"(617) 324-7515","MITEmail":"bposner@mit.edu","Campus_Formatted":"EE20-609\n\n","Department":"Sloan Management Review"}
+    ,{"Row":53,"NameLast":"Rowland","NameFirst":"Molly","Campus_PhoneNumber":null,"MITEmail":"rowlandm@mit.edu","Campus_Formatted":"EE20-436D\n\n","Department":"Executive Education"}
+    ,{"Row":54,"NameLast":"Taylor","NameFirst":"Jacqueline","Campus_PhoneNumber":"(617) 253-0477","MITEmail":"JPARIS@MIT.EDU","Campus_Formatted":"E70-676W\n\n","Department":"Global Programs"}
+    ,{"Row":55,"NameLast":"Mathews","NameFirst":"Rebecca","Campus_PhoneNumber":"(617) 253-8445","MITEmail":"RMATHEWS@MIT.EDU","Campus_Formatted":"EE20-446F\n\n","Department":"Finance"}
+    ,{"Row":56,"NameLast":"Cannon","NameFirst":"Marissa","Campus_PhoneNumber":"(617) 324-0520","MITEmail":"mcannon@mit.edu","Campus_Formatted":"E70-676Y\n\n","Department":"Global Programs"}
+    ,{"Row":57,"NameLast":"Hauge","NameFirst":"Tracie","Campus_PhoneNumber":"(617) 324-7881","MITEmail":"thauge@mit.edu","Campus_Formatted":"EE20-461C\n\n","Department":"Human Resources"}
+    ,{"Row":58,"NameLast":"Bradley","NameFirst":"Oran","Campus_PhoneNumber":"(617) 324-7858","MITEmail":"oranb@mit.edu","Campus_Formatted":"EE20-420C\n\n","Department":"Executive Education"}
+    ,{"Row":59,"NameLast":"Milton","NameFirst":"Lyndi","Campus_PhoneNumber":"(617) 324-7226","MITEmail":"LMILTON@MIT.EDU","Campus_Formatted":"EE20-432G\n\n","Department":"Executive Education"}
+    ,{"Row":60,"NameLast":"Cordner","NameFirst":"Lisa","Campus_PhoneNumber":"(617) 324-6385","MITEmail":"lcordner@mit.edu","Campus_Formatted":"EE20-420G\n\n","Department":"Executive Education"}
+    ,{"Row":61,"NameLast":"Blanchette","NameFirst":"Keagan","Campus_PhoneNumber":"(617) 253-7750","MITEmail":"keaganmc@mit.edu","Campus_Formatted":"EE20-632C\n\n","Department":"Office of Communications"}
+    ,{"Row":62,"NameLast":"Ullmann","NameFirst":"Lee","Campus_PhoneNumber":"(617) 324-3975","MITEmail":"ULLMANN@MIT.EDU","Campus_Formatted":"E70-676\n\n","Department":"Global Programs"}
+    ,{"Row":63,"NameLast":"Roberts","NameFirst":"Michael","Campus_PhoneNumber":"(617) 324-6489","MITEmail":"mjrobert@mit.edu","Campus_Formatted":"EE20-441\n\n","Department":"Finance"}
+    ,{"Row":64,"NameLast":"Wise","NameFirst":"Mackenzie","Campus_PhoneNumber":"(617) 253-7170","MITEmail":"WISEM@MIT.EDU","Campus_Formatted":"EE20-600\n\n","Department":"Sloan Management Review"}
+    ,{"Row":65,"NameLast":"Berger","NameFirst":"Colleen","Campus_PhoneNumber":"(617) 253-2061","MITEmail":"cberger@mit.edu","Campus_Formatted":"EE20-423\n\n","Department":"Executive Education"}
+    ,{"Row":66,"NameLast":"Rosano","NameFirst":"Lauren","Campus_PhoneNumber":null,"MITEmail":"lrosano@mit.edu","Campus_Formatted":"EE20-600\n\n","Department":"Sloan Management Review"}
+    ,{"Row":67,"NameLast":"Imberman","NameFirst":"Kelly","Campus_PhoneNumber":"(617) 324-7625","MITEmail":"IMBERMAN@MIT.EDU","Campus_Formatted":"EE20-453\n\n","Department":"Human Resources"}
+    ,{"Row":68,"NameLast":"Buckley","NameFirst":"Stacy","Campus_PhoneNumber":"(617) 324-5921","MITEmail":"BUCKLEYS@MIT.EDU","Campus_Formatted":"EE20-463\n\n","Department":"Human Resources"}
+    ,{"Row":69,"NameLast":"Kirksey","NameFirst":"Noah","Campus_PhoneNumber":"(617) 253-0582","MITEmail":"NKIRKSEY@MIT.EDU","Campus_Formatted":"EE20-446B\n\n","Department":"Finance"}
+    ,{"Row":70,"NameLast":"Petit","NameFirst":"Natalie","Campus_PhoneNumber":"(617) 324-4130","MITEmail":"npetit@mit.edu","Campus_Formatted":"EE20-420F\n\n","Department":"Executive Education"}
+    ,{"Row":71,"NameLast":"Jarvis-Herbin","NameFirst":"Kielyn","Campus_PhoneNumber":"(617) 324-4653","MITEmail":"kjarvis@mit.edu","Campus_Formatted":"EE20-420D\n\n","Department":"Executive Education"}
+    ,{"Row":72,"NameLast":"Wheeler","NameFirst":"Mary","Campus_PhoneNumber":"(617) 324-4025","MITEmail":"MARYWHEE@MIT.EDU","Campus_Formatted":"EE20-436B\n\n","Department":"Finance"}
+    ,{"Row":73,"NameLast":"Michelman","NameFirst":"Paul","Campus_PhoneNumber":"(617) 715-2550","MITEmail":"paulm1@mit.edu","Campus_Formatted":"EE20-611\n\n","Department":"Sloan Management Review"}
+    ,{"Row":74,"NameLast":"Dulude","NameFirst":"Kimberly","Campus_PhoneNumber":"(617) 324-4447","MITEmail":"kdulude@mit.edu","Campus_Formatted":"EE20-446A\n\n","Department":"Finance"}
+    ,{"Row":75,"NameLast":"McGoldrick","NameFirst":"Jacqueline","Campus_PhoneNumber":"(617) 253-6680","MITEmail":"jamcgold@mit.edu","Campus_Formatted":"E62-331\n\n","Department":"Finance"}
+    ,{"Row":76,"NameLast":"Mendes","NameFirst":"Wellington","Campus_PhoneNumber":null,"MITEmail":"mendes@mit.edu","Campus_Formatted":"EE20-650B\n\n","Department":"Office of Communications"}
+    ,{"Row":77,"NameLast":"Geddes","NameFirst":"Meia","Campus_PhoneNumber":null,"MITEmail":"geddes@mit.edu","Campus_Formatted":null,"Department":"Office of Communications"}
+    ,{"Row":78,"NameLast":"Ramsey","NameFirst":"John","Campus_PhoneNumber":"(617) 324-4896","MITEmail":"joramsey@mit.edu","Campus_Formatted":"EE20-642C\n\n","Department":"Office of Communications"}
+    ,{"Row":79,"NameLast":"Ratel","NameFirst":"Keith","Campus_PhoneNumber":null,"MITEmail":"kratel@mit.edu","Campus_Formatted":"EE20-400\n\n","Department":"Executive Education"}
+    ,{"Row":80,"NameLast":"Mac","NameFirst":"Tony","Campus_PhoneNumber":null,"MITEmail":"tonymac@mit.edu","Campus_Formatted":"EE20\n\n","Department":"Executive Education"}
+    ,{"Row":81,"NameLast":"Shumate","NameFirst":"Melanie","Campus_PhoneNumber":null,"MITEmail":"mshumate@mit.edu","Campus_Formatted":"EE20\n\n","Department":"Global Programs"}
+    ,{"Row":82,"NameLast":"Asselin","NameFirst":"Cheryl","Campus_PhoneNumber":null,"MITEmail":"casselin@mit.edu","Campus_Formatted":"EE20-604\n\n","Department":"Sloan Management Review"}
+    ,{"Row":83,"NameLast":"Anderton","NameFirst":"Matthew","Campus_PhoneNumber":null,"MITEmail":"mattand@mit.edu","Campus_Formatted":"EE20\n\n","Department":"Office of Communications"}
+    ,{"Row":84,"NameLast":"Papa","NameFirst":"Mihaela","Campus_PhoneNumber":null,"MITEmail":"mpapa@mit.edu","Campus_Formatted":"E70-676R\n\n","Department":"Global Programs"}
+    ,{"Row":85,"NameLast":"Hill","NameFirst":"Travis","Campus_PhoneNumber":null,"MITEmail":"tphill@mit.edu","Campus_Formatted":"NE49-2000\n\n","Department":"Executive Education"}
+    ,{"Row":86,"NameLast":"Gripenstraw","NameFirst":"Kelsey","Campus_PhoneNumber":null,"MITEmail":"kgrip@mit.edu","Campus_Formatted":"EE20\n\n","Department":"Office of Communications"}
+    ,{"Row":87,"NameLast":"Cornacchio","NameFirst":"Mary","Campus_PhoneNumber":"(617) 324-8989","MITEmail":"marycorn@mit.edu","Campus_Formatted":"E90-9141\n\n","Department":"Human Resources"}
+    ,{"Row":88,"NameLast":"Weintraub","NameFirst":"Sophie","Campus_PhoneNumber":null,"MITEmail":"sophiecw@mit.edu","Campus_Formatted":"E90-9100\n\n","Department":"Executive Education"}
+    ,{"Row":89,"NameLast":"DiCostanzo-Diaz","NameFirst":"Rosangela","Campus_PhoneNumber":"(617) 324-7653","MITEmail":"rdicosta@mit.edu","Campus_Formatted":"EE20-452F\n\n","Department":"Human Resources"}
+    ,{"Row":90,"NameLast":"DiBartolomeo","NameFirst":"James","Campus_PhoneNumber":"(617) 324-6490","MITEmail":"jdibarto@mit.edu","Campus_Formatted":"EE20-442F\n\n","Department":"Finance"}
+    ,{"Row":91,"NameLast":"Ryder","NameFirst":"Allison","Campus_PhoneNumber":null,"MITEmail":"amryder@mit.edu","Campus_Formatted":"E90-9195\n\n","Department":"Sloan Management Review"}
+    ,{"Row":92,"NameLast":"Seto","NameFirst":"Matthew","Campus_PhoneNumber":null,"MITEmail":"mmseto@mit.edu","Campus_Formatted":"EE20-452G\n\n","Department":"Human Resources"}
+    ,{"Row":93,"NameLast":"Mazzelli","NameFirst":"Ambra","Campus_PhoneNumber":null,"MITEmail":"mazzelli@mit.edu","Campus_Formatted":null,"Department":"Global Programs"}
+    ,{"Row":94,"NameLast":"Donovan","NameFirst":"Alexandra","Campus_PhoneNumber":"(617) 258-9897","MITEmail":"adon@mit.edu","Campus_Formatted":"E90\n\n","Department":"Executive Education"}
+    ,{"Row":95,"NameLast":"Zhang","NameFirst":"Penglong","Campus_PhoneNumber":null,"MITEmail":"ZHANGPB@MIT.EDU","Campus_Formatted":null,"Department":"Global Programs"}
+    ,{"Row":96,"NameLast":"Kavanagh","NameFirst":"Michael","Campus_PhoneNumber":"(617) 253-0639","MITEmail":"mkavan@mit.edu","Campus_Formatted":"EE20\n\n","Department":"Executive Education"}
+    ,{"Row":97,"NameLast":"Heichler","NameFirst":"Elizabeth","Campus_PhoneNumber":"(617) 258-6179","MITEmail":"elizh@mit.edu","Campus_Formatted":"E90-9180\n\n","Department":"Sloan Management Review"}
+    ,{"Row":98,"NameLast":"Somers","NameFirst":"Meredith","Campus_PhoneNumber":null,"MITEmail":"msomers@mit.edu","Campus_Formatted":null,"Department":"Office of Communications"}
+    ,{"Row":99,"NameLast":"Barry","NameFirst":"Desiree","Campus_PhoneNumber":null,"MITEmail":"dbarry@mit.edu","Campus_Formatted":"EE20\n\n","Department":"Sloan Management Review"}
+    ,{"Row":100,"NameLast":"Estrada","NameFirst":"Adrian","Campus_PhoneNumber":null,"MITEmail":"estradaa@mit.edu","Campus_Formatted":null,"Department":"Global Programs"}
+    ,{"Row":101,"NameLast":"Burrell","NameFirst":"Lisa","Campus_PhoneNumber":null,"MITEmail":"lburrell@mit.edu","Campus_Formatted":"EE20\n\n","Department":"Sloan Management Review"}
+    ,{"Row":102,"NameLast":"Williams","NameFirst":"Kayla","Campus_PhoneNumber":null,"MITEmail":"kaylaw@mit.edu","Campus_Formatted":null,"Department":"Office of Communications"}
+    ,{"Row":103,"NameLast":"Walker","NameFirst":"Austin","Campus_PhoneNumber":"(617) 253-2935","MITEmail":"awalker2@mit.edu","Campus_Formatted":"EE20-4th floor\n\n","Department":"Finance"}
+    ,{"Row":104,"NameLast":"MacDonald","NameFirst":"Allyson","Campus_PhoneNumber":null,"MITEmail":"amacdona@mit.edu","Campus_Formatted":"EE20\n\n","Department":"Sloan Management Review"}
+    ,{"Row":105,"NameLast":"Relihan","NameFirst":"Thomas","Campus_PhoneNumber":null,"MITEmail":"trelihan@mit.edu","Campus_Formatted":null,"Department":"Office of Communications"}
+    ,{"Row":106,"NameLast":"Kashdan","NameFirst":"Zachary","Campus_PhoneNumber":null,"MITEmail":"zkashdan@mit.edu","Campus_Formatted":null,"Department":"Global Programs"}
+    ,{"Row":107,"NameLast":"Santana","NameFirst":"Paola","Campus_PhoneNumber":null,"MITEmail":"santanap@mit.edu","Campus_Formatted":"E90-9TH FLOOR\n\n","Department":"Executive Education"}
+    ,{"Row":108,"NameLast":"Lappin","NameFirst":"Sonali","Campus_PhoneNumber":"(617) 253-3017","MITEmail":"sonali_l@mit.edu","Campus_Formatted":null,"Department":"Executive Education"}
+    ]  }
