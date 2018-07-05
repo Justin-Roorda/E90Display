@@ -13,7 +13,7 @@ var directoryData;
 pullDirectoryInfo();
 
 function pullDirectoryInfo() {
-    var url = 'http://localhost:1337/data';
+    var url = 'https://localhost:1337/data';
     $.ajax({
         url: url,
         type: "GET",

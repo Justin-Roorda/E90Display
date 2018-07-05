@@ -68,7 +68,7 @@ var options = {
    }
  }).listen(port);
 
- console.log("Server running at http://localhost:%d", port);
+ console.log("Server running at https://localhost:%d", port);
  
  /*
   function random(response) {
