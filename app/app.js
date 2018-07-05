@@ -13,7 +13,7 @@ var directoryData;
 pullDirectoryInfo();
 
 function pullDirectoryInfo() {
-    var url = 'https://localhost:1337/data';
+    var url = 'https://e90-walkindisplay.azurewebsites.net/data';
     $.ajax({
         url: url,
         type: "GET",
