@@ -1,6 +1,6 @@
 //bug fix to redraw resizing text
 function resizeAfterContentISGenerated(){
-    $('#directoryContainer').css('top', '-0.9vh');
+    //$('#directoryContainer').css('top', '-0.9vh');
     var causeRepaintOn = $("span, div");
 $(window).resize(function() {
     causeRepaintsOn.css("z-index", 1);
@@ -8,6 +8,7 @@ $(window).resize(function() {
 });
 }
 
+console.log('Hello');
 //pull directory data from endpoint
 var directoryData;
 pullDirectoryInfo();
