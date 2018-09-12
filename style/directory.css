@@ -12,30 +12,30 @@
     white-space: nowrap;
     overflow-x: auto;
     position: relative;
-    height: 48vh;
-    width: 99vw;
+    /* height: 44vh; */
+    /* width: 99vh; */
     padding-top: 0.05vh;
 }
 
 #directory {
-    height: 47vh;
+    height: 48vh;
     width: 99vw;
     margin: 0 auto;
     font-weight: 600;
 }
 
 .container {
-    max-height: 33vh;
+    max-height: 47vh;
     text-align: left;
     position: relative;
 }
 
 div.dataContainer {
     display:flex;
-    flex-flow:column wrap;
-    max-height: 28vh;
-    /*width: 0vw;*/
+    flex-flow: column wrap;
+    width: 0vw;
     padding-top: 1.25vh;
+    padding-right: 1.25vh;
 }
 
 div.title {
@@ -48,10 +48,13 @@ div.title {
 
 div.dataRow {
     width: 14vw;
-    height: 1vh;
+    height: 1.5vh;
     display: block;
     white-space: nowrap;
     padding-bottom: 0.05vh;
+    flex-direction: column;
+    flex-flow: column nowrap;
+    padding-right: 5vh;
 }
 
 
@@ -65,10 +68,10 @@ span.dataPoint {
 }
 
 span.lastName {
-    width: 3.5vw;
+    width: 5vw;
 }
 span.firstName {
-    width: 3.5vw;
+    width: 5vw;
 }
 span.phone {
     width: 4.5vw;
