@@ -62,7 +62,7 @@ function generateHtml(department) {
         html += '<span class="lastName dataPoint">'+ (dept[i].NameLast || '') +'</span>';
         html += '<span class="firstName dataPoint">'+ (dept[i].NameFirst || '') +'</span>';
         html += '<span class="phone dataPoint">'+ (dept[i].Campus_PhoneNumber || '') +'</span>';
-        html += '<span class="office dataPoint">'+ (dept[i].Campus_Formatted || '') +'</span>';
+   // Removed Location per Jason's request 9/12     html += '<span class="office dataPoint">'+ (dept[i].Campus_Formatted || '') +'</span>';
         html += '</div>';
     }
    }
