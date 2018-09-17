@@ -28,6 +28,9 @@
 	.st22{fill:none;stroke:#2B4045;stroke-width:4.3279;stroke-miterlimit:10;}
 	.st23{fill:none;stroke:#2B4045;stroke-width:4.3279;stroke-miterlimit:10;stroke-dasharray:13.2374,5.5156;}
 	.st24{fill:none;stroke:#2B4045;stroke-width:4.3279;stroke-miterlimit:10;stroke-dasharray:13.5481,5.645;}
+	.st25{fill:#BF1E2D;}
+	.st26{font-family:'Arial-BoldMT';}
+	.st27{font-size:29.1653px;}
 </style>
 <rect x="-428.7" y="-501.5" class="st0" width="215.6" height="207.2"/>
 <rect x="-428.7" y="-708.7" class="st1" width="215.6" height="207.2"/>
@@ -321,4 +324,5 @@
 <text transform="matrix(1 0 0 1 2111.4534 827.5106)" class="st6 st17 st18 st19">9209</text>
 <text transform="matrix(1 0 0 1 2192.5586 827.5106)" class="st6 st17 st18 st19">9210</text>
 <rect x="3436.9" y="1593.3" style="fill:none;" width="210" height="189.8"/>
+<text transform="matrix(0.6873 0 0 1 946.1242 1159.9348)" class="st25 st26 st27">You are here</text>
 </svg>
