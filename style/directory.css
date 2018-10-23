@@ -14,18 +14,18 @@
     position: relative;
     /* height: 44vh; */
     /* width: 99vh; */
-    padding-top: 0.05vh;
+    padding-top: 3.5vh;
 }
 
 #directory {
-    height: 48vh;
-    width: 99vw;
+    height: 44vh;
+    width: 98vw;
     margin: 0 auto;
     font-weight: 600;
 }
 
 .container {
-    max-height: 47vh;
+    max-height: 43vh;
     text-align: left;
     position: relative;
 }
@@ -34,7 +34,7 @@ div.dataContainer {
     display:flex;
     flex-flow: column wrap;
     width: 0vw;
-    padding-top: 1.25vh;
+    padding-top: 1.35vh;
     padding-right: 1.25vh;
 }
 
@@ -98,7 +98,7 @@ span.titleText {
     z-index: 1;
     width: auto;
     padding-top: 0.3vh;
-    padding-bottom: 0.3vh;
+    padding-bottom: 0.2vh;
     padding-right: 1vw;
     position: absolute;
     top: 0;
