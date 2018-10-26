@@ -6,7 +6,7 @@
 	.st0{fill:#2C3F45;}
 	.st1{fill:#A51E36;}
 	.st2{fill:#EBEEF1;}
-	.st3{font-family: Arial Bold; font-weight: 200;}
+	.st3{font-family: Arial Bold; font-weight: 800;}
 	.st4{font-size:113.0545px;}
 	.st5{letter-spacing:-5;}
 	.st6{fill:#8A8C8C;}
@@ -20,7 +20,7 @@
 	.st14{fill:none;stroke:#2B4045;stroke-width:8.6432;stroke-miterlimit:10;}
 	.st15{font-size:43.3621px;}
 	.st16{letter-spacing:-2;}
-	.st17{font-family: Arial Bold; font-weight: 400;}
+	.st17{font-family: Arial Bold; font-weight: 600;}
 	.st18{font-size:21px;}
 	.st19{letter-spacing:-1;}
 	.st20{font-size:32.222px;}
