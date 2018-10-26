@@ -4,28 +4,25 @@
 }
 
 #officeLayoutImage {
-    height: 50vh;
+    height: 52vh;
 }
-
 
 #directoryContainer {
     white-space: nowrap;
     overflow-x: auto;
     position: relative;
-    /* height: 44vh; */
-    /* width: 99vh; */
-    padding-top: 3.5vh;
+    padding-top: 1vh;
 }
 
 #directory {
-    height: 44vh;
+    height: 42vh;
     width: 98vw;
     margin: 0 auto;
     font-weight: 600;
 }
 
 .container {
-    max-height: 43vh;
+    max-height: 41vh;
     text-align: left;
     position: relative;
 }
@@ -34,7 +31,7 @@ div.dataContainer {
     display:flex;
     flex-flow: column wrap;
     width: 0vw;
-    padding-top: 1.35vh;
+    padding-top: 1vh;
     padding-right: 1.25vh;
 }
 
