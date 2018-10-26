@@ -15,14 +15,14 @@
 }
 
 #directory {
-    height: 42vh;
+    height: 41.5vh;
     width: 98vw;
     margin: 0 auto;
     font-weight: 600;
 }
 
 .container {
-    max-height: 41vh;
+    max-height: 40.5vh;
     text-align: left;
     position: relative;
 }
@@ -48,7 +48,7 @@ div.dataRow {
     height: 1.5vh;
     display: block;
     white-space: nowrap;
-    padding-bottom: 0.05vh;
+    /* padding-bottom: 0.05vh; */
     flex-direction: column;
     flex-flow: column nowrap;
 }
