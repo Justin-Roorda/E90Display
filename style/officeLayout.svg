@@ -6,7 +6,7 @@
 	.st0{fill:#2C3F45;}
 	.st1{fill:#A51E36;}
 	.st2{fill:#EBEEF1;}
-	.st3{font-family: Arial,Helvetica Neue,Helvetica,sans-serif; font-weight: 100;}
+	.st3{font-family: Arial Bold; font-weight: 200;}
 	.st4{font-size:113.0545px;}
 	.st5{letter-spacing:-5;}
 	.st6{fill:#8A8C8C;}
@@ -20,7 +20,7 @@
 	.st14{fill:none;stroke:#2B4045;stroke-width:8.6432;stroke-miterlimit:10;}
 	.st15{font-size:43.3621px;}
 	.st16{letter-spacing:-2;}
-	.st17{font-family: Arial,Helvetica Neue,Helvetica,sans-serif; font-weight: 300;}
+	.st17{font-family: Arial Bold; font-weight: 400;}
 	.st18{font-size:21px;}
 	.st19{letter-spacing:-1;}
 	.st20{font-size:32.222px;}
@@ -29,7 +29,7 @@
 	.st23{fill:none;stroke:#2B4045;stroke-width:4.3279;stroke-miterlimit:10;stroke-dasharray:13.2374,5.5156;}
 	.st24{fill:none;stroke:#2B4045;stroke-width:4.3279;stroke-miterlimit:10;stroke-dasharray:13.5481,5.645;}
 	.st25{fill:#BF1E2D;}
-	.st26{font-family: Arial,Helvetica Neue,Helvetica,sans-serif; font-weight: 600;}
+	.st26{font-family: Arial Bold; font-weight: 700;}
 	.st27{font-size:37px;}
 </style>
 <rect x="-428.7" y="-501.5" class="st0" width="215.6" height="207.2"/>
