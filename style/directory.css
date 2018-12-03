@@ -15,14 +15,14 @@
 }
 
 #directory {
-    height: 41.5vh;
+    height: 43.5vh;
     width: 98vw;
     margin: 0 auto;
     font-weight: 600;
 }
 
 .container {
-    max-height: 40.5vh;
+    max-height: 43.5vh;
     text-align: left;
     position: relative;
 }
