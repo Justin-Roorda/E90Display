@@ -70,10 +70,9 @@ var options = {
   
   if (req.method === 'GET' && req.url === '/favicon.ico') {
     res.writeHead(200, { 'Content-Type': 'image/x-icon' });
-    svg = fs.readFileSync('./style/favicon.ico', 'utf8');
-    res.end(svg, 'utf-8');
+    img = fs.readFileSync('./style/favicon.ico');
+    res.end(img, 'binary');
   }
-  
 
    if (req.method === 'GET' && req.url === '/data') {
      res.writeHead(200, { 'Content-Type': 'application/json' });
