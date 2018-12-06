@@ -68,6 +68,13 @@ var options = {
     res.end(svg, 'utf-8');
   }
   
+  if (req.method === 'GET' && req.url === '/favicon.ico') {
+    res.writeHead(200, { 'Content-Type': 'image/x-icon' });
+    svg = fs.readFileSync('./style/favicon.ico', 'utf8');
+    res.end(svg, 'utf-8');
+  }
+  
+
    if (req.method === 'GET' && req.url === '/data') {
      res.writeHead(200, { 'Content-Type': 'application/json' });
      res.end(JSON.stringify(directoryData), 'utf-8');

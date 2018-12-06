@@ -1,14 +1,14 @@
+
 //bug fix to redraw resizing text
 function resizeAfterContentISGenerated(){
     //$('#directoryContainer').css('top', '-0.9vh');
-    var causeRepaintOn = $("span, div");
+    var causeRepaintsOn = $("span, div");
 $(window).resize(function() {
     causeRepaintsOn.css("z-index", 1);
-    
 });
 }
 
-console.log('Hello');
+
 //pull directory data from endpoint
 var directoryData;
 pullDirectoryInfo();
@@ -90,7 +90,7 @@ function filterDepartment(department){
     } else {
         console.log('error: unable to retrieve filtered results for the ' + department + ' department!'  );
     }
-    console.log('filter department results: ', filteredDept);
+    //console.log('filter department results: ', filteredDept); //for troubleshooting
     filteredDept = alphaSortArray(filteredDept);
     return filteredDept;
 }
