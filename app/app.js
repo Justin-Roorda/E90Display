@@ -100,7 +100,7 @@ function alphaSortArray(arrayName) {
         var lastNameA=a.NameLast.toLowerCase(), LastNameB=b.NameLast.toLowerCase();
         if (lastNameA < LastNameB) //sort string ascending
             return -1; 
-        if (nameA > nameB)
+        if (lastNameA > LastNameB)
             return 1;
         return 0; //default return value (no sorting)
     });
