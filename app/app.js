@@ -91,5 +91,19 @@ function filterDepartment(department){
         console.log('error: unable to retrieve filtered results for the ' + department + ' department!'  );
     }
     console.log('filter department results: ', filteredDept);
+    filteredDept = alphaSortArray(filteredDept);
     return filteredDept;
+}
+
+function alphaSortArray(arrayName) {
+    arrayName.sort(function(a, b){
+        var lastNameA=a.NameLast.toLowerCase(), LastNameB=b.NameLast.toLowerCase();
+        if (lastNameA < LastNameB) //sort string ascending
+            return -1; 
+        if (nameA > nameB)
+            return 1;
+        return 0; //default return value (no sorting)
+    });
+
+    return arrayName;
 }
