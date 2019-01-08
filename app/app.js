@@ -1,13 +1,19 @@
 
 //bug fix to redraw resizing text
-function resizeAfterContentISGenerated(){
+function resizeAfterContentISGenerated(department){
     //$('#directoryContainer').css('top', '-0.9vh');
-    var causeRepaintsOn = $("span, div");
-$(window).resize(function() {
-    causeRepaintsOn.css("z-index", 1);
-});
-}
+    var departmentClassName = department.split(' ').join('-');
+    shrinkTextToFitSection(departmentClassName);
 
+    var causeRepaintsOn = $("span, div");
+    $(window).resize(function() {
+        causeRepaintsOn.css("z-index", 1);
+});
+
+//shrink data rows to fit in the container if there is overflow
+
+
+}
 
 //pull directory data from endpoint
 var directoryData;
@@ -34,10 +40,14 @@ function pullDirectoryInfo() {
     });
 }
 
+
 function build(){
     var departmentNames = getDepartmentNames();
     for(var i = 0; i < departmentNames.length; i++){
         generateHtml(departmentNames[i]);
+    }
+    for(var j = 0; j < departmentNames.length; j++){
+        resizeAfterContentISGenerated(departmentNames[j]);
     }
 }
 
@@ -70,7 +80,6 @@ function generateHtml(department) {
        html = '<div class="error"><span>Unable to pull directory information for '+department+'</span></div>';
    }
    $('#'+deptName).append(html);
-   resizeAfterContentISGenerated();
 }
 
 function filterDepartment(department){
@@ -106,4 +115,61 @@ function alphaSortArray(arrayName) {
     });
 
     return arrayName;
+}
+
+
+function shrinkTextToFitSection(sectionName) {
+    //do not shrink ExecEd as they will have multiple columns
+    if(sectionName === 'Executive-Education'){
+        return;
+    } else {
+        var dataRowsToSearch = $('div.dataRow.'+ sectionName);
+        //Default value
+        dataRowsToSearch.css('height', '1.5vh');
+
+        calculateSectionHeights(sectionName,dataRowsToSearch);
+    }
+}
+
+function calculateSectionHeights(sectionName,dataRowsToSearch) {
+    //Set variables to be used later for comparison
+    var dataRowHeight = 0;
+    var sectionHeight = 0;
+    
+    //get sum of individual elements
+    dataRowsToSearch.each(function(key, elem) {
+        //key = index , element = elemenet for that index returned
+        dataRowHeight += $(elem).outerHeight();
+    });
+    
+    //get height of container
+    sectionHeight = $('div.dataContainer#' + sectionName).height();
+
+     //check: if elements had 0 height throw error and exit function
+     if (dataRowHeight < 1 || sectionHeight < 1) {
+        console.log('error: could not fetch height for : ' + sectionName);
+        return; 
+    } else {
+    shrinkDataRowsInSection(sectionName,dataRowsToSearch,dataRowHeight,sectionHeight);
+    }
+}
+
+function shrinkDataRowsInSection(sectionName,dataRowsToSearch,dataRowHeight,sectionHeight) {
+    //If valid height returns shrink text row till it fits in container
+    //convert to vh
+    //in PX
+    var heightInPX = parseFloat(dataRowsToSearch.css('height'));
+    //in VH
+    var heightInVH = heightInPX / document.documentElement.clientHeight *100;
+    console.log('converted vh is: ',heightInVH);
+    //increment to small sizes by 0.05vh
+    var newHeightInVH = (heightInVH - 0.05) + 'vh';
+
+    //TODO rather than running this multiple times till the elements fit we should do a calculation once then adjust the elements accordingly
+    if( dataRowHeight > sectionHeight ) {
+        dataRowsToSearch.css('height', newHeightInVH);
+        console.log(dataRowsToSearch.css('height'));
+        //reset the loop, can check to see if the data rows need to be shrink again
+        calculateSectionHeights(sectionName,dataRowsToSearch);
+    }
 }
