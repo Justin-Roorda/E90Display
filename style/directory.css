@@ -33,6 +33,7 @@ div.dataContainer {
     width: 0vw;
     padding-top: 1vh;
     padding-right: 1.25vh;
+    max-height: 40vh;
 }
 
 div.title {
@@ -80,10 +81,11 @@ span.office {
 
 
 div#com, div#fin, div#gp, div#hr, div#smr {
-    flex-grow: 1;
+    /* flex-grow: 1; */
 }
  div#ee {
-    flex-grow: 2;
+    /* flex-grow: 2; */
+    grid-column: 1 / span 2;
 }
 
 div.ee {
@@ -112,7 +114,7 @@ span.titleText {
     right: 1vw;
 }
 
-.ee-stripe-3 {
+.ee .stripe-3 {
     background: 
         repeating-linear-gradient(45deg, rgba(206, 166, 190, 0.8),
                                 rgba(206, 166, 190, 0.8) 10px,
@@ -120,7 +122,7 @@ span.titleText {
                                 rgba(206, 166, 190, 1) 20px)
   }
 
-  .com-stripe-3 {
+  .com .stripe-3 {
     background: 
         repeating-linear-gradient(45deg, rgba(155, 203, 212, 0.8),
                                 rgba(155, 203, 212, 0.8) 10px,
@@ -128,7 +130,7 @@ span.titleText {
                                 rgba(155, 203, 212, 1) 20px)
   }
 
-  .fin-stripe-3 {
+  .fin .stripe-3 {
     background: 
         repeating-linear-gradient(45deg, rgba(251, 243, 171, 0.8),
                                 rgba(251, 243, 171, 0.8) 10px,
@@ -136,7 +138,7 @@ span.titleText {
                                 rgba(251, 243, 171, 1) 20px)
   }
 
-  .gp-stripe-3 {
+  .gp .stripe-3 {
     background: 
     repeating-linear-gradient(45deg, rgba(232, 175, 134, 0.8),
                                 rgba(232, 175, 134, 0.8) 10px,
@@ -144,7 +146,7 @@ span.titleText {
                                 rgba(232, 175, 134, 1) 20px)
   }
 
-  .hr-stripe-3 {
+  .hr .stripe-3 {
     background: 
         repeating-linear-gradient(45deg, rgba(211, 232, 206, 0.8),
                                 rgba(211, 232, 206, 0.8) 10px,
@@ -152,7 +154,7 @@ span.titleText {
                                 rgba(211, 232, 206, 1) 20px)
   }
 
-  .smr-stripe-3 {
+  .smr .stripe-3 {
     background: 
         repeating-linear-gradient(45deg, rgba(234, 188, 182, 0.8),
                                 rgba(234, 188, 182, 0.8) 10px,
@@ -162,9 +164,8 @@ span.titleText {
 
 
   .flex-parent {
-    display:flex;
-    flex-flow: column;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
   }
   
   .flex-child {

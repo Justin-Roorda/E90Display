@@ -14,12 +14,14 @@ var fs = require('fs');
 var dt = require('./displayTime');
 var directoryData;
 
+console.log('running!');
+
 var options = {
     host: 'sloan-data.mit.edu',
     path: '/_odata/STS.vw_E90DepartmentStaff',
     //authentication headers
     headers: {
-        'Authorization': 'Basic ' + new Buffer(process.env.WEB_USER + ':' + process.env.WEB_PASS).toString('base64')
+        'Authorization': 'Basic ' + new Buffer.from(process.env.WEB_USER + ':' + process.env.WEB_PASS).toString('base64')
     }
   };
 
@@ -85,3 +87,5 @@ var options = {
      res.end(JSON.stringify(directoryData), 'utf-8');
    }
  }).listen(port);
+
+ console.log("Server running at http://localhost:%d", port);

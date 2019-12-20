@@ -20,7 +20,18 @@ var directoryData;
 pullDirectoryInfo();
 
 function pullDirectoryInfo() {
-    var url = 'https://e90-walkindisplay.azurewebsites.net/data';
+
+    var url;
+
+    if(window.location.hostname.includes('localhost')){
+        url = window.location.href + 'data';
+    } else {
+        url = 'https://e90-walkindisplay.azurewebsites.net/data';
+    }
+
+    console.log(url);
+       
+
     $.ajax({
         url: url,
         type: "GET",
